@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  cache:
+    jcache:
+      config: ehcache.xml
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+ch-props:
+  host: rc1d-0e9jg3abi78nb43n.mdb.yandexcloud.net
+  user: admin
+  password: user1111
+  cert: 'RootCA.pem'

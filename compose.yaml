@@ -1,0 +1,10 @@
+version: '3'
+services:
+  clickhouse:
+    image: yandex/clickhouse-server
+    environment:
+      - 'CLICKHOUSE_USER=user'
+      - 'CLICKHOUSE_PASSWORD=user'
+      - 'CLICKHOUSE_DB=cloud'
+    ports:
+      - "8123:8123"
